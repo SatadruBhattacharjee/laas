@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@laas.io/renderer": ["libs/renderer/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
